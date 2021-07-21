@@ -1,0 +1,187 @@
+.main {
+  
+    background-color: white; 
+     /* background: linear-gradient(90deg,  #cad5dd, #415f7e);    */
+    width: 100vw;
+    height: 100vh;
+  }
+.wrapper{
+    position: relative;
+    height: 105vh;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+   overflow: hidden;
+  }
+  .wrapper_img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    animation: ani1 30s ease-out forwards;
+  }
+.wrapper-text{
+    text-align: center;
+    font-size: 20px;
+    line-height: 35px;
+    font-family: poppins;
+    color:white;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    padding: 3rem 2rem;
+    border-radius: 0.25rem;
+    background-color: rgba(118, 124, 126, 0.8);
+    opacity:0;
+    animation: ani2 0.7s ease-out forwards;
+  }  
+  .wrapper-text h2,
+  .wrapper-text h4{
+    opacity: 0;
+    margin: 0;
+  }
+  .wrapper-text h2{
+    animation: ani2 0.75s ease-out 3s forwards;
+  }
+  .wrapper-text h4{
+    animation: ani2 0.75s ease-out 4s forwards;
+  }
+  @keyframes ani2{
+    100%{
+      opacity: 1;
+    }
+  }
+  @keyframes ani1{
+    100%{
+      transform: scale(1.55);
+    }
+  }
+  .content{
+    width: 100%;
+    float: left;
+  }
+  article{
+    width: 13.5%;
+    margin-left: 5%;
+    background-color:rgba(27, 27, 23, 0.25);
+    color: #000;
+    font-size: 20px;
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 40px 40px 0px 40px  ;
+    margin-top: 550px;
+    height: 500px;
+  border-radius: 40px 40px 0px 0px;
+  margin-bottom: 100px;
+  transition: all .5s;
+  }
+  article p, article h1{
+    margin-top: 2px;
+  }
+  article:hover{
+    background-color: cadetblue;
+    color: #000;
+    margin-top: 400px
+  }
+   .team{
+       background:white;
+       height: 100vh;
+       color: black;
+       font-size: 35px;
+       width: 100%;
+       position: relative;
+     background-color:#f2f2f2;
+    }
+    .line{
+      border: 1px solid green;
+      width: 30%;
+    }
+    .team h1{
+        text-align: center;
+        padding-top: 80px;
+        font-size: 40px;
+        color: white;
+        
+    }
+    .slide-row{
+        display: flex;
+        width: 3300px;
+        transition: 0.5s;
+    }
+    .slide-col{
+  
+      width: 800px;
+      height: 400px;
+      position: relative;
+    }
+  .user-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 90%;
+  }
+  .user-img img{
+    height: 80%;
+    border-radius: 10px;
+  }
+  .user-text{
+    background: #2d3a59;
+    width: 520px;
+    height: 270px;
+    position: absolute;
+    left:  0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius:  10px;
+    color: #d3d4d6;
+    padding: 45px;
+    box-sizing: border-box;
+    z-index: 2;
+  }
+  .user-text p{
+    font-size: 18px;
+    line-height: 24px;
+  
+  }
+  .user-text h3{
+    margin: 35px 0 5px;
+    color: #fff;
+  }
+  .containers{
+    height: 400px;
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  .indicator{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -50px;
+  }
+  .btn{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin: 4px;
+    border-radius: 15px;
+    background:#2d3a59;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .active{
+    width: 45px;
+  }
+  .testimonial{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  

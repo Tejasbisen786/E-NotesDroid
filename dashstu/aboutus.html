@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dashstyle.css" />
+    <link rel="stylesheet" href="about.css">
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+
+    <style>
+      
+    </style>
+    <title>About Us</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="sidenav">
+        <p class="adminheading">
+          <span style="color: red; font: 2em poppin"> Notes</span
+          ><span style="color: rgb(16, 156, 236); font: 2em poppin">Droid</span>
+        </p>
+        <br />
+
+        <a href="dashboard.html" class="dashatag"
+          ><span class="las la-igloo"></span> Dashboard</a
+        >
+
+        <a href="faculty.html" class="dashatag"
+          ><span class="las la-users"></span> Faculty</a
+        >
+
+        <a href="course.html" class="dashatag"
+          ><span class="las la-clipboard-list"></span> Courses</a
+        >
+
+        <a
+          href="aboutus.html"
+          class="dashatag"
+          style="background-color: rgb(201, 197, 197)"
+          ><span class="las la-box"></span> About Us</a
+        >
+
+        <a href="logout.html" class="dashatag"
+          ><span class="las la-sign-out-alt"></span> Logout</a
+        >
+      </div>
+      <div class="main" id="ppp">
+         <!-- <h1>About Us</h1> -->
+        <div class="wrapper">
+          <img src="E:\pics\contact.jpg" alt="" class="wrapper_img">
+        <div class="wrapper-text">
+          
+          <br><span style="font-size: 30px;">About Us</span>   <p><br> NotesDroid, the Socio-Academic Portal of GPN department of INFORMATION TECHNOLOGY.<br> We started out with a team of Four with an aim to provide everything that is necessary<br> to the students during the three years of diploma and now, we have a team of hardwork<br>-ing andcommitted students working in IT department. The aim of NotesDroid is to provide all<br> the details about the various courses studying in our diploma period in IT sector under its GPN<br> Portal Section which includes everything about IT Department and updates related to courses<br> and under its Academics Section where all the content related to academics i.e. notes, files,<br> books, exam papers,MCQ test etc.has been provided. By using this website complexity of searching<br> data is Reduce as all data is integrated in a single block.(of all subject related data is available).<br> Due to this accessing of data become easy By this website every student get all details of their<br> Courses. And Progress of students can be analysis by giving MCQ tests. And Faculty they can<br> manipulated update, control, modify all the courses and staff.They have special Previlage <br>of Update, insert, Modify all data. The main purpose is to provide all the data of their <br>courses like Cirriculum, Notes, Books, Question papers and can solve MCQ test.</p>
+      </div>
+      </div>
+      <br><br><br><br><br><br><br><br>
+      
+      <div class="team">
+        <p><b>&nbsp;&nbsp;&nbsp;&nbsp;Meet Our Team</b></p>
+        <div class="line"></div>
+        <div class= "containers">
+          <div class="indicator">
+            <span class="btn active"></span>
+            <span class="btn"></span>
+            <span class="btn"></span>
+            <span class="btn"></span>
+          </div>
+          <div class="testimonial">
+          <div class="slide-row" id="slide">
+            <div class="slide-col">
+              <div class="user-text">
+            <p>“You’re off to great places, today is your day. Your mountain is waiting, so get on
+              your way.” </p>
+        <h3>Tejas Bisen</h3>
+            <p>Notesdroid</p>
+          </div>
+          <div class="user-img">
+            <img src="img/tejas.jpeg">
+          </div>
+            </div><div class="slide-col">
+              <div class="user-text">
+            <p>"Winning doesn’t always mean being first. Winning means you’re doing better than you’ve
+              done before.”. </p>
+        <h3>Yogeshree Chandankhede</h3>
+            <p>Notesdroid</p>
+          </div>
+          <div class="user-img">
+            <img src="img/yogi.jpeg">
+          </div>
+            </div>
+            <div class="slide-col">
+              <div class="user-text">
+            <p>"Once you replace negative thoughts with positive ones, you’ll start having positive results.”</p>
+        <h3>Janvi Badwaik</h3>
+            <p>Notesdroid</p>
+          </div>
+          <div class="user-img">
+            <img src="img/janhvi.jpeg">
+          </div>
+            </div>
+            <div class="slide-col">
+              <div class="user-text">
+            <p>"The only time you fail is when you fall down and stay down.”</p>
+        <h3>Shivani Dwivedi</h3>
+            <p>Notesdroid</p>
+          </div>
+          <div class="user-img">
+            <img src="img/shivani.jpeg">
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>
+        var btn=document.getElementsByClassName("btn");
+        var slide=document.getElementById("slide");
+        btn[0].onclick=function(){
+          slide.style.transform="translateX(0px)"
+          for(i=0;i<4;i++){
+            btn[i].classList.remove("active");
+          }
+          this.classList.add("active");
+        }
+        btn[1].onclick=function(){
+          slide.style.transform="translateX(-800px)"
+          for(i=0;i<4;i++){
+            btn[i].classList.remove("active");
+          }
+          this.classList.add("active");
+        }
+        btn[2].onclick=function(){
+          slide.style.transform="translateX(-1600px)"
+          for(i=0;i<4;i++){
+            btn[i].classList.remove("active");
+          }
+          this.classList.add("active");
+        }
+        btn[3].onclick=function(){
+          slide.style.transform="translateX(-2400px)"
+          for(i=0;i<4;i++){
+            btn[i].classList.remove("active");
+          }
+          this.classList.add("active");
+        }
+      </script><br><br><br>
+
+
+      <article><i class="fas fa-puzzle-piece"></i>
+        <h1>Creativity</h1>
+        <p>It's the ability to think outside the box. We make decisions, create something new and generate a lot of ideas.</p>
+      </article>
+      <article><i class="fas fa-users"></i>
+        <h1>Teamwork</h1>
+        <p>Consistently demonstrate an unselfish commitment to working with others to create a collaborative</p>
+      </article>
+      <article><i class="fas fa-atom"></i>
+        <h1>Integrity</h1>
+        <p>We don't take our commitments lightly. We will do everything within our power to meet expectations. We own up to and learn from our mistakes. We do the right thing always</p>
+      </article>
+      <article><i class="far fa-chart-bar"></i>
+        <h1>Growth</h1>
+        <p>We invest in ourselves and in one another not just to grow as an organization but also as indivisuals. through personal development and continous improvement we enrich our lives and are better  prepared to tackle opportunities as they arise </p>
+      </article>
+
+      </div>
+    </div>
+  </body>
+</html>
